@@ -31,18 +31,18 @@
         body
         {
             width: 100%;
-			height: 100%;
-			font-family: 'Open Sans' , sans-serif;
-			background: #80c1e7;
-			background: -webkit-gradient(linear, 0 0, 0 100%, from(#80c1e7), to(#C71585));   
-			background: -webkit-linear-gradient(left, #EED2EE, #C71585);   
-			background: -moz-linear-gradient(left, #80c1e7, #C71585);   
-			background: -o-linear-gradient(left, #80c1e7, #C71585);   
-			background: -ms-linear-gradient(left, #80c1e7, #C71585);   
-			background: linear-gradient(left, #80c1e7, #C71585);   
-			filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 1, startColorstr = #80c1e7, endColorstr = #C71585);     
-        }	
-	.content {margin-top: 3%;}
+            height: 100%;
+            font-family: 'Open Sans' , sans-serif;
+            background: #80c1e7;
+            background: -webkit-gradient(linear, 0 0, 0 100%, from(#80c1e7), to(#C71585));   
+            background: -webkit-linear-gradient(left, #EED2EE, #C71585);   
+            background: -moz-linear-gradient(left, #80c1e7, #C71585);   
+            background: -o-linear-gradient(left, #80c1e7, #C71585);   
+            background: -ms-linear-gradient(left, #80c1e7, #C71585);   
+            background: linear-gradient(left, #80c1e7, #C71585);   
+            filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 1, startColorstr = #80c1e7, endColorstr = #C71585);     
+        }   
+    .content {margin-top: 3%;}
     </style>
 <link href="./918Kiss - Download Game Client APK_files/layer.css" type="text/css" rel="styleSheet" id="layermcss"></head>
 <body>
@@ -90,8 +90,8 @@
                         </div>
                     </div>
                 </div>
-            </div>			
-            <div class="col-md-3"></div>					
+            </div>          
+            <div class="col-md-3"></div>                    
         </div>
         
         <div class="row" style=" margin-bottom:10px;">
@@ -291,49 +291,49 @@
                     _apkURL = result.apkURL;
                     _iosURL_32 += result.ios32URL;
                     _iosURL_64 += result.ios64URL;
-					
-				   $("#bt_down_apk").click(function() {
-						self.location = _apkURL;
-					});
+                    
+                   $("#bt_down_apk").click(function() {
+                        self.location = _apkURL;
+                    });
 
-					$("#bt_down_ios64").click(function() {
-						self.location = _iosURL_64;
-					});
-					
-					$("#bt_down_ios32").click(function() {
-						self.location = _iosURL_32;
-					});		
+                    $("#bt_down_ios64").click(function() {
+                        self.location = _iosURL_64;
+                    });
+                    
+                    $("#bt_down_ios32").click(function() {
+                        self.location = _iosURL_32;
+                    });     
 
-					$("#bt_cn").click(function() {
-						onTipInfo();
-						$("#guide_cn").show();
-						$("#guide_en,#guide_th").hide();            
-					});
+                    $("#bt_cn").click(function() {
+                        onTipInfo();
+                        $("#guide_cn").show();
+                        $("#guide_en,#guide_th").hide();            
+                    });
 
-					$("#bt_en").click(function() {
-						onTipInfo();
-						$("#guide_en").show();
-						$("#guide_cn,#guide_th").hide();            
-					});
+                    $("#bt_en").click(function() {
+                        onTipInfo();
+                        $("#guide_en").show();
+                        $("#guide_cn,#guide_th").hide();            
+                    });
 
-					$("#bt_th").click(function() {
-						onTipInfo();
-						$("#guide_th").show();
-						$("#guide_en,#guide_cn").hide();            
-					}); 
+                    $("#bt_th").click(function() {
+                        onTipInfo();
+                        $("#guide_th").show();
+                        $("#guide_en,#guide_cn").hide();            
+                    }); 
                 }
             }
         });
-				
+                
     });
-		
-	function onTipInfo()
-	{
-		layer.open({
-			type: 2,
-			time:2
-		});	  
-	}
+        
+    function onTipInfo()
+    {
+        layer.open({
+            type: 2,
+            time:2
+        });   
+    }
 </script> 
 
 </body></html>
