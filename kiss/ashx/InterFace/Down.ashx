@@ -1,0 +1,1 @@
+{"success":true,"apkURL":"https://s3-ap-southeast-1.amazonaws.com/app918kiss/apk/918Kiss.apk","ios32URL":"itms-services://?action=download-manifest&url=https://s3-ap-southeast-1.amazonaws.com/app918kiss/ios32/918Kiss.plist","ios64URL":"itms-services://?action=download-manifest&url=https://s3-ap-southeast-1.amazonaws.com/app918kiss/ios/918Kiss.plist"}
